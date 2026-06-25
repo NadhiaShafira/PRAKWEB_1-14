@@ -80,25 +80,5 @@ php spark serve
 Akses Website:
 Buka browser dan ketik alamat ```http://localhost:8080```
 
-💡 Panduan Penempatan File Foto Screenshot
-Agar semua gambar di atas bisa muncul secara otomatis di halaman utama GitHub kamu, pastikan kamu mengikuti aturan penempatan berikut ini:
 
-Ubah Nama File Gambar:
-Pastikan kamu sudah mengubah nama file ke-8 gambar hasil screenshot kamu persis seperti daftar di bawah ini:
-
-1_halaman_home.png (untuk SS halaman utama)
-
-2_halaman_login.png (untuk SS halaman login)
-
-3_dashboard_admin.png (untuk SS tabel utama admin)
-
-4_tambah_artikel.png (untuk SS form input artikel)
-
-5_artikel_berhasil_ditambah.png (untuk SS notifikasi sukses hijau)
-
-6_halaman_daftar_artikel.png (untuk SS kartu artikel baru di sisi user)
-
-7_halaman_ajax_mode.png (untuk SS manajemen artikel AJAX)
-
-8_detail_artikel.png (untuk SS halaman penuh isi berita)
 
