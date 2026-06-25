@@ -27,7 +27,7 @@ Berikut adalah alur pengerjaan dan tampilan fitur dari website yang telah disele
 
 ### 1. Halaman Utama (Beranda Pengunjung)
 Tampilan awal website saat pertama kali diakses oleh pengguna.
-![Halaman Utama](1_halaman_home.png)
+![Halaman Utama](https://github.com/NadhiaShafira/PRAKWEB_1-14/blob/18afdc14eee475d9e52375a32eae2ab92f7a801b/SS_PRAK1-14/1_halaman_home.png)
 
 ### 2. Form Login Admin
 Halaman gerbang masuk khusus bagi admin untuk mengelola konten web.
