@@ -1,86 +1,61 @@
-# 🌸 Space Berita Nadhia Shafira — Web Desain Project ✨
+# CodeIgniter 4 Framework
 
-Selamat datang di repositori **Space Berita Nadhia Shafira**! Website ini merupakan platform media informasi modern bertema estetika *pastel pink-blue gradient* yang menyajikan berbagai artikel seputar dunia Teknologi, Pemrograman, dan Berita Kampus. Proyek website ini dikembangkan menggunakan framework **CodeIgniter 4** dan mendukung pengelolaan data dinamis berbasis **AJAX**.
+## What is CodeIgniter?
 
----
+CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
+More information can be found at the [official site](https://codeigniter.com).
 
-## 🚀 Fitur Utama Website
-* **Homepage Estetik:** Tampilan beranda minimalis dengan kombinasi warna pastel yang ramah di mata.
-* **Autentikasi Admin:** Sistem login aman untuk masuk ke panel kendali (dashboard) admin.
-* **Manajemen Artikel (CRUD):** Admin dapat menambah, melihat, mengubah, dan menghapus artikel.
-* **AJAX Mode Integration:** Pengelolaan artikel secara *real-time* tanpa perlu memuat ulang (*refresh*) halaman.
-* **Responsif & UI Modern:** Tata letak grid yang rapi yang memudahkan pembaca menjelajahi artikel.
+This repository holds the distributable version of the framework.
+It has been built from the
+[development repository](https://github.com/codeigniter4/CodeIgniter4).
 
----
+More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
 
-## 📦 Teknologi yang Digunakan
-* **Framework:** CodeIgniter 4 (PHP)
-* **Database:** MySQL
-* **Frontend:** HTML5, CSS3 (Custom Gradient Styles), JavaScript (AJAX)
-* **Server Lokal:** XAMPP
+You can read the [user guide](https://codeigniter.com/user_guide/)
+corresponding to the latest version of the framework.
 
----
+## Important Change with index.php
 
-## 📸 Dokumentasi Antarmuka (Screenshots)
+`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
+for better security and separation of components.
 
-Berikut adalah alur pengerjaan dan tampilan fitur dari website yang telah diselesaikan:
+This means that you should configure your web server to "point" to your project's *public* folder, and
+not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
+framework are exposed.
 
-### 1. Halaman Utama (Beranda Pengunjung)
-Tampilan awal website saat pertama kali diakses oleh pengguna.
-![Halaman Utama](https://github.com/NadhiaShafira/PRAKWEB_1-14/blob/18afdc14eee475d9e52375a32eae2ab92f7a801b/SS_PRAK1-14/1_halaman_home.png)
+**Please** read the user guide for a better explanation of how CI4 works!
 
-### 2. Form Login Admin
-Halaman gerbang masuk khusus bagi admin untuk mengelola konten web.
-![Login Admin](https://github.com/NadhiaShafira/PRAKWEB_1-14/blob/a06297de864a25091dcce14d485db42bd3eb13ad/SS_PRAK1-14/2_halaman_login.png)
+## Repository Management
 
-### 3. Dashboard Panel Admin
-Halaman utama admin yang menampilkan tabel data artikel dalam mode AJAX.
-![Dashboard Admin](https://github.com/NadhiaShafira/PRAKWEB_1-14/blob/ad922e05442dcdea44b32b504a529cbac6416f2d/SS_PRAK1-14/3_dashboard_admin.png)
+We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
+We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
+FEATURE REQUESTS.
 
-### 4. Form Tambah Artikel Baru
-Fasilitas bagi admin untuk menginput judul, kategori, gambar unggulan, serta konten berita.
-![Tambah Artikel](https://github.com/NadhiaShafira/PRAKWEB_1-14/blob/b151bc840874eb63e56a91921b6b5caab54eaa16/SS_PRAK1-14/4_tambah_artikel.png)
+This repository is a "distribution" one, built by our release preparation script.
+Problems with it can be raised on our forum, or as issues in the main repository.
 
-### 5. Notifikasi Artikel Berhasil Diterbitkan
-Bukti validasi sistem saat artikel baru berhasil tersimpan ke dalam database.
-![Artikel Sukses](https://github.com/NadhiaShafira/PRAKWEB_1-14/blob/62c2b4bd1c8de4ff146d02c128be0ecf194bbc34/SS_PRAK1-14/5_artikel_berhasil_ditambah.png)
+## Contributing
 
-### 6. Eksplorasi Artikel Terbaru (Sisi User)
-Tampilan kartu artikel baru yang dinamis di halaman depan pengunjung.
-![Daftar Artikel User](https://github.com/NadhiaShafira/PRAKWEB_1-14/blob/1cea79d221cf109aa1e0d9e457b251c41c81784a/SS_PRAK1-14/6_halaman_daftar_artikel.png)
+We welcome contributions from the community.
 
-### 7. Manajemen Artikel Ter-update (AJAX Mode)
-Tampilan tabel manajemen artikel admin yang otomatis memperbarui data lewat AJAX.
-![Manajemen AJAX](https://github.com/NadhiaShafira/PRAKWEB_1-14/blob/4571733bc79216b67ee06f94f1620b9bf05539c9/SS_PRAK1-14/7_halaman_ajax_mode.png)
+Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
 
-### 8. Halaman Detail Konten Artikel
-Halaman penuh saat pengunjung mengklik "Baca Selengkapnya" untuk membaca isi berita secara utuh.
-![Detail Artikel](https://github.com/NadhiaShafira/PRAKWEB_1-14/blob/a7c073199d77b39ac6b5db8d1f6a0fe22e376bc0/SS_PRAK1-14/8_detail_artikel.png)
+## Server Requirements
 
----
+PHP version 8.2 or higher is required, with the following extensions installed:
 
-## 🛠️ Cara Menjalankan Proyek di Lokal
-1. **Clone Repositori:**
-```bash
-   git clone [https://github.com/username-kamu/nama-repo-kamu.git](https://github.com/username-kamu/nama-repo-kamu.git)
-```
+- [intl](http://php.net/manual/en/intl.requirements.php)
+- [mbstring](http://php.net/manual/en/mbstring.installation.php)
 
-2.**Nyalakan XAMPP:**
-- Buka XAMPP Control Panel, lalu aktifkan modul Apache dan MySQL.
-- Konfigurasi Database:
-- Masuk ke localhost/phpmyadmin.
-- Buat database baru dan import file .sql proyek ini.
-- Sesuaikan pengaturan database di file .env.
+> [!WARNING]
+> - The end of life date for PHP 7.4 was November 28, 2022.
+> - The end of life date for PHP 8.0 was November 26, 2023.
+> - The end of life date for PHP 8.1 was December 31, 2025.
+> - If you are still using below PHP 8.2, you should upgrade immediately.
+> - The end of life date for PHP 8.2 will be December 31, 2026.
 
-3. **Jalankan Server:**
-Buka terminal di VS Code, lalu ketik perintah:
-```bash
-php spark serve
-```
-Akses Website:
-Buka browser dan ketik alamat ```http://localhost:8080```
+Additionally, make sure that the following extensions are enabled in your PHP:
 
-**LINK GITHUB PRAK 1-7**
-
-![LINK PRAK](https://github.com/NadhiaShafira/Lab7Web..git)
-
+- json (enabled by default - don't turn it off)
+- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
+- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
