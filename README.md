@@ -39,7 +39,7 @@ Halaman utama admin yang menampilkan tabel data artikel dalam mode AJAX.
 
 ### 4. Form Tambah Artikel Baru
 Fasilitas bagi admin untuk menginput judul, kategori, gambar unggulan, serta konten berita.
-![Tambah Artikel](4_tambah_artikel.png)
+![Tambah Artikel](https://github.com/NadhiaShafira/PRAKWEB_1-14/blob/b151bc840874eb63e56a91921b6b5caab54eaa16/SS_PRAK1-14/4_tambah_artikel.png)
 
 ### 5. Notifikasi Artikel Berhasil Diterbitkan
 Bukti validasi sistem saat artikel baru berhasil tersimpan ke dalam database.
