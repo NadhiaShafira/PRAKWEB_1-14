@@ -35,7 +35,7 @@ Halaman gerbang masuk khusus bagi admin untuk mengelola konten web.
 
 ### 3. Dashboard Panel Admin
 Halaman utama admin yang menampilkan tabel data artikel dalam mode AJAX.
-![Dashboard Admin](3_dashboard_admin.png)
+![Dashboard Admin](https://github.com/NadhiaShafira/PRAKWEB_1-14/blob/ad922e05442dcdea44b32b504a529cbac6416f2d/SS_PRAK1-14/3_dashboard_admin.png)
 
 ### 4. Form Tambah Artikel Baru
 Fasilitas bagi admin untuk menginput judul, kategori, gambar unggulan, serta konten berita.
