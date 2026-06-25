@@ -55,7 +55,7 @@ Tampilan tabel manajemen artikel admin yang otomatis memperbarui data lewat AJAX
 
 ### 8. Halaman Detail Konten Artikel
 Halaman penuh saat pengunjung mengklik "Baca Selengkapnya" untuk membaca isi berita secara utuh.
-![Detail Artikel](8_detail_artikel.png)
+![Detail Artikel](https://github.com/NadhiaShafira/PRAKWEB_1-14/blob/a7c073199d77b39ac6b5db8d1f6a0fe22e376bc0/SS_PRAK1-14/8_detail_artikel.png)
 
 ---
 
