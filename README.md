@@ -43,7 +43,7 @@ Fasilitas bagi admin untuk menginput judul, kategori, gambar unggulan, serta kon
 
 ### 5. Notifikasi Artikel Berhasil Diterbitkan
 Bukti validasi sistem saat artikel baru berhasil tersimpan ke dalam database.
-![Artikel Sukses](5_artikel_berhasil_ditambah.png)
+![Artikel Sukses](https://github.com/NadhiaShafira/PRAKWEB_1-14/blob/62c2b4bd1c8de4ff146d02c128be0ecf194bbc34/SS_PRAK1-14/5_artikel_berhasil_ditambah.png)
 
 ### 6. Eksplorasi Artikel Terbaru (Sisi User)
 Tampilan kartu artikel baru yang dinamis di halaman depan pengunjung.
