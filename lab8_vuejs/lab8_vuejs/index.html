@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secured SPA Frontend VueJS & Vue Router</title>
+    
+    <link rel="icon" href="data:,">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.4.27/vue.global.prod.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/4.3.2/vue-router.global.prod.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js"></script>
+    
+    <link rel="stylesheet" href="assets/css/style.css?v=1.4">
+</head>
+<body>
+
+<div id="app">
+    <header>
+        <h1>Aplikasi Panel Single Page (SPA) Secured</h1>
+        <nav class="nav-menu">
+            <router-link to="/">Beranda</router-link> | 
+            <router-link to="/artikel">Kelola Artikel</router-link> | 
+            <router-link to="/about">Tentang Saya</router-link> |
+            
+            <router-link v-if="!isLoggedIn" to="/login" class="btn-login">Login</router-link>
+            <a v-else href="#" @click.prevent="logout" class="btn-logout" style="color: red; font-weight: bold;">Logout</a>
+        </nav>
+    </header>
+    
+    <main style="margin-top: 20px;">
+        <router-view @login-success="checkLoginStatus"></router-view>
+    </main>
+</div>
+
+<script src="assets/js/components/Home.js?v=1.4"></script>
+<script src="assets/js/components/Artikel.js?v=1.4"></script>
+<script src="assets/js/components/About.js?v=1.4"></script> 
+<script src="assets/js/components/Login.js?v=1.4"></script>
+
+<script src="assets/js/app.js?v=1.4"></script>
+
+</body>
+</html>
