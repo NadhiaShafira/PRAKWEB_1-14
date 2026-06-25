@@ -47,7 +47,7 @@ Bukti validasi sistem saat artikel baru berhasil tersimpan ke dalam database.
 
 ### 6. Eksplorasi Artikel Terbaru (Sisi User)
 Tampilan kartu artikel baru yang dinamis di halaman depan pengunjung.
-![Daftar Artikel User](6_halaman_daftar_artikel.png)
+![Daftar Artikel User](https://github.com/NadhiaShafira/PRAKWEB_1-14/blob/1cea79d221cf109aa1e0d9e457b251c41c81784a/SS_PRAK1-14/6_halaman_daftar_artikel.png)
 
 ### 7. Manajemen Artikel Ter-update (AJAX Mode)
 Tampilan tabel manajemen artikel admin yang otomatis memperbarui data lewat AJAX.
